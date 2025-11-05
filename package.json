@@ -27,11 +27,6 @@
   "pnpm": {
     "neverBuiltDependencies": []
   },
-  "engines": {
-  "node": ">=22.0.0",
-  "npm": ">=10.9.2"
-  },
-
   "scripts": {
     "pre-commit": "lint-staged",
     "lint": "tsx scripts/lint.js",
